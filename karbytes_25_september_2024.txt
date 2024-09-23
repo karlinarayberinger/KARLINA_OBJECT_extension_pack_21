@@ -1,0 +1,17 @@
+/**
+ * file: karbytes_25_september_2024.txt
+ * type: plain-text
+ * date: 23_SEPTEMBER_2024
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+At approximately 9:30PM Pacific Standard Time on 22_SEPTEMBER_2024, karbytes burned two M_DISC copies of a folder containing the entire karbytes file collection named mdisc_karbytes_ultra_2024_edition_13. (One of the three M_DISC optical discs which karbytes attempted to burn with the aforementioned file collection failed to burn all of the files correctly (possibly due to karbytes accidentally shaking the disc burner while it was in the midst of burning those files to that disc)).
+
+(The entire contents of that file collection are enumerated on the web page at the following Uniform Resource Locator: https://karbytesforlifeblog.wordpress.com/mdisc_karbytes_ultra_2024_edition_13/).
+
+Immediately after burning those three discs, karbytes performed a “read test” on each of those read-only M_DISCs each containing exclusively that aforementioned folder. Each of those three “read tests” involved karbytes copying the entire contents of each disc onto the Desktop directory of one of karbytes’ laptop computers (in order to generate at least one instance of fetching the sequences of binary digits which is inscribed into the surface of a particular M_DISC and verbatim reproducing the karbytes intellectual property those sequences of binary digits have encoded).
+
+(Each hand-written label on the front cover of each case containing each of the two (successfully burned) aforementioned M_DISCs has a check mark followed by “read_test” in the upper left corner of the label to signify that its respective disc was read such that the disc’s entire data contents were copied into some digital electronic computer’s long-term memory (but then subsequently deleted to save hard drive space on that computer). A photographic image depicting those two “read tested” discs is available to view or download at the following Uniform Resource Locator: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/mdisc_karbytes_complete_set_23september2024.jpg).
+
+(The entire collection of karbytes intellectual property which was created and published by karbytes before 11:59PM Pacific Standard Time on 22_SEPTEMBER_2024 is encapsulated by the M_DISC folders named karbytes_ultra_2024_edition_13, karbytes_ultra_2024_edition_12, karbytes_ultra_2024_edition_7, and karbytes_20march2024_journals. A physical instance of such a collection is depicted by the image at the following Uniform Resource Locator: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/mdisc_karbytes_complete_set_23september2024.jpg). 
