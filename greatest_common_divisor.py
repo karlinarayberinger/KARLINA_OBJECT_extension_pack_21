@@ -6,11 +6,18 @@
 # license: PUBLIC_DOMAIN 
 #########################################################################################
 
+# Include the module which defines output=os.sys.stdout
+import os
+
+# Define the maximum value for A and B
+MAXIMUM_INPUT_VALUE = 10000 
+
+"""
+Use the Euclidean algorithm to compute the greatest common divisor of positive integers A and B.
+
+Print each step of that iterative process to the output (i.e. console or file).
+"""
 def print_greatest_common_divisor_computation_steps(A, B, output):
-    """
-    Use the Euclidean algorithm to compute the greatest common divisor of positive integers A and B.
-    Print each step of that iterative process to the output (i.e. console or file).
-    """
     i = 0
     remainder = 0
     output.write("\n\nComputing the greatest common divisor of A and B using the Euclidean algorithm...")
@@ -23,13 +30,14 @@ def print_greatest_common_divisor_computation_steps(A, B, output):
     output.write(f"\n\nThe greatest common divisor of A and B is {A}\n")
 
 def main():
+    # Declare and initialize three variables for storing integer values.
     A = 1
     B = 1
     input_additional_values = 1
 
     """
     If the file named greatest_common_divisor.txt does not already exist 
-    inside of the same file directory as the file named greatest_common_divisor.cpp, 
+    inside of the same file directory as the file named greatest_common_divisor.py, 
     create a new file named greatest_common_divisor_output.txt in that directory.
     
     Open the plain-text file named greatest_common_divisor_output.txt
@@ -53,17 +61,21 @@ def main():
 
         # Continue input and computation loop until user inputs 0 for input_additional_values.
         while input_additional_values != 0:
-            print("\n\nEnter the first value (A): ", end="")
-            A = int(input())
+            file.write("\n\nEnter the first value (A): ")
+            A = int(input("\n\nEnter the first value (A): "))
 
-            print("\n\nEnter the second value (B): ", end="")
+            file.write("\n\nEnter the second value (B): ")
             B = int(input())
 
+            # Execute the greatest common divisor function (defined by this Python program file) such that the computation steps and final result are printed to the file output stream.
             print_greatest_common_divisor_computation_steps(A, B, file)
 
+            # Execute the greatest common divisor function (defined by this Python program file) such that the computation steps and final result are printed to the command line terminal.
+            print_greatest_common_divisor_computation_steps(A, B, output=os.sys.stdout)
+
             # Ask the user whether or not to continue inputting values.
-            print("\n\nWould you like to input new values for A and B? (Enter 1 if YES. Enter 0 if NO): ", end="")
-            input_additional_values = int(input())
+            file.write("\n\nWould you like to input new values for A and B? (Enter 1 if YES. Enter 0 if NO): ")
+            input_additional_values = int(input("\n\nWould you like to input new values for A and B? (Enter 1 if YES. Enter 0 if NO): "))
 
         # Print a closing message to the command line terminal.
         print("\n\n--------------------------------")
