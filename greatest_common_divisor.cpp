@@ -141,14 +141,14 @@ int main()
 }
 
 /**
- * Use the Euclidean algorithm to compute the greatest common divisor of nonnegative integers A and B.
+ * Use the Euclidean algorithm to compute the greatest common divisor of positive integers A and B.
  * 
  * Print each step of that iterative process to the output stream.
  */
 void print_greatest_common_divisor_computation_steps(int A, int B, std::ostream& output)
 {
-	int i = 0, remainder = 0;
-    output << "\n\nComputing the greatest common divisor of A and B is the Euclidean algorithm...";
+    int i = 0, remainder = 0;
+    output << "\n\nComputing the greatest common divisor of A and B using the Euclidean algorithm...";
     while (B != 0) 
     {
         remainder = A % B;
