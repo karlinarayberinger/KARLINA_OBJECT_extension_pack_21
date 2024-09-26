@@ -1,7 +1,7 @@
 /**
  * file: greatest_common_divisor.cpp
  * type: C++ (source file)
- * date: 25_SEPTEMBER_2024
+ * date: 26_SEPTEMBER_2024
  * author: karbytes
  * license: PUBLIC_DOMAIN 
  */
