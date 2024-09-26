@@ -142,6 +142,10 @@ int main()
 
 /**
  * Use the Euclidean algorithm to compute the greatest common divisor of positive integers A and B.
+ *
+ * (This function assumes that A and B are each natural numbers which are not too large to be overflow values (i.e. values which are too large to be properly represented as positive quantities in the C++ int type variable)).
+ *
+ * (This function assumes that output is either std::cout, some ofstream object (pointing to a valid output file), or some other valid C++ output stream object).
  * 
  * Print each step of that iterative process to the output stream.
  */
