@@ -1,7 +1,10 @@
-# greatest_common_divisor.py
-# Author: karbytes
-# Date: 26_SEPTEMBER_2024
-# License: PUBLIC_DOMAIN
+# /**
+# * file: greatest_common_divisor.py
+# * type: Python
+# * date: 26_SEPTEMBER_2024
+# * author: karbytes
+# * license: PUBLIC_DOMAIN 
+# */
 
 def print_greatest_common_divisor_computation_steps(A, B, output):
     """
