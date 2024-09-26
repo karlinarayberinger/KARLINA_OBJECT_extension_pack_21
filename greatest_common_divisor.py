@@ -55,17 +55,33 @@ def main():
         file.write("Start Of Program\n")
         file.write("--------------------------------\n")
 
-        # Print "This Python program computes the greatest common divisor of two natural numbers and prints the steps involved." to the command line terminal and to the file output stream.
+        # Print "This Python program computes the greatest common divisor of two natural numbers and prints the steps involved." to the command line terminal.
         print("\n\nThis Python program computes the greatest common divisor of two natural numbers and prints the steps involved.")
+
+        # Print "This Python program computes the greatest common divisor of two natural numbers and prints the steps involved." to the command line terminal and to the file output stream.
         file.write("\n\nThis Python program computes the greatest common divisor of two natural numbers and prints the steps involved.")
+
+        # Print a horizontal divider line to the command line terminal and to the file output stream.
+        print("\n\n--------------------------------")
+        file.write("\n\n--------------------------------")
 
         # Continue input and computation loop until user inputs 0 for input_additional_values.
         while input_additional_values != 0:
-            file.write("\n\nEnter the first value (A): ")
+            # Print the input prompt to the terminal only.
             A = int(input("\n\nEnter the first value (A): "))
+            B = int(input("Enter the second value (B): "))
 
-            file.write("\n\nEnter the second value (B): ")
-            B = int(input())
+            # Print a horizontal divider line to the command line terminal and to the file output stream.
+            print("\n\n--------------------------------")
+            file.write("\n\n--------------------------------")
+
+            # Log user inputs to the file after they are entered.
+            file.write(f"\n\nEntered values: A = {A}, B = {B}")
+            print(f"\n\nEntered values: A = {A}, B = {B}")
+
+            # Print a horizontal divider line to the command line terminal and to the file output stream.
+            print("\n\n--------------------------------")
+            file.write("\n\n--------------------------------")
 
             # Execute the greatest common divisor function (defined by this Python program file) such that the computation steps and final result are printed to the file output stream.
             print_greatest_common_divisor_computation_steps(A, B, file)
@@ -74,7 +90,6 @@ def main():
             print_greatest_common_divisor_computation_steps(A, B, output=os.sys.stdout)
 
             # Ask the user whether or not to continue inputting values.
-            file.write("\n\nWould you like to input new values for A and B? (Enter 1 if YES. Enter 0 if NO): ")
             input_additional_values = int(input("\n\nWould you like to input new values for A and B? (Enter 1 if YES. Enter 0 if NO): "))
 
         # Print a closing message to the command line terminal.
