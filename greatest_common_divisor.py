@@ -9,9 +9,6 @@
 # Include the module which defines output=os.sys.stdout
 import os
 
-# Define the maximum value for A and B
-MAXIMUM_INPUT_VALUE = 10000 
-
 """
 Use the Euclidean algorithm to compute the greatest common divisor of positive integers A and B.
 
@@ -43,7 +40,7 @@ def main():
     Open the plain-text file named greatest_common_divisor_output.txt
     and set that file to be overwritten with program data.
     """
-    with open("greatest_common_divisor_output.txt", "w") as file:
+    with open("greatest_common_divisor_two_output.txt", "w") as file:
 
         # Print an opening message to the command line terminal.
         print("\n\n--------------------------------")
