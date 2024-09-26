@@ -9,7 +9,7 @@
 def print_greatest_common_divisor_computation_steps(A, B, output):
     """
     Use the Euclidean algorithm to compute the greatest common divisor of positive integers A and B.
-    Prints each step of that iterative process to the output (console or file).
+    Print each step of that iterative process to the output (i.e. console or file).
     """
     i = 0
     remainder = 0
