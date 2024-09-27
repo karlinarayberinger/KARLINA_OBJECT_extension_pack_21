@@ -1,0 +1,121 @@
+/**
+ * file: karbytes_29_september_2024.txt
+ * type: plain-text
+ * date: 26_SEPTEMBER_2024
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following content is a sequel to the journal entry web page whose Uniform Resource Locator is as follows: https://karbytesforlifeblog.wordpress.com/karbytes_27_september_2024/
+
+* * *
+
+The following conversation transcript (beneath the horizontal line of three asterisks) is a slightly modified version of the text which was copy-pasted from the web page interface featuring karbytes’ conversing with ChatGPT-4o at approximately 10:00PM Pacific Standard Time on 26_SEPTEMBER_2024.
+
+The conversation involves karbytes asking ChatGPT-4o for advice on how to access the Dark Web for the first time. ChatGPT-4o provided a Surface Web starting point (i.e. https://ahmia.fi/) which enabled karbytes to visit an onion website which karbytes was able to input search terms into and get relevant results (especially in pertinence to finding drug sources which ship to the United States (because many psychedelics such as LSD (i.e.lysergic acid diethylamide) are not yet available to buy (without it being a scam) on the surface web (according to karbytes’ experiences and the anecdotes karbytes has read from other people confirming karbytes’ suspicions)).
+
+The above paragraph is just one of multiple examples of karbytes putting itself at risk of being persecuted by legal authorities or facing other dangers by karbytes voluntarily choosing to partake in risky and sometimes criminal activity for the sake of honoring karbytes’ intuition in pertinence to karbytes’ achieving its goals as optimally as seemingly possible.
+
+The following Uniform Resource Locator (URL) depicts karbytes’ first successful loading of a .onion web page: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/example_onion_page_dark_web_via_tor_browser_accessed_by_karbytes_26september2024.jpg
+
+The following Uniform Resource Locator (URL) depicts the dark net search engine which ChatGPT-4o shared the light net URL to as part of the conversation that follows this section of this note: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/ahmia_search_engine_surface_net_page_26sep2024.jpg
+
+The following URL depicts the .onion version of the aforementioned search engine: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/ahmia_search_engine_dark_net_page_26sep2024.jpg
+
+The following URL depicts an example use of the aforementioned search engine to generate results based on a a search query karbytes submitted: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/ahmia_search_engine_sample_search_26sep2024_p0.jpg
+
+The following URL depicts an example web page which karbytes opened from the aforementioned list of search engine results: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_21/main/ahmia_search_engine_sample_search_26sep2024_p1.jpg
+
+(In order to purchase items for sale on dark web markets, karbytes will most likely use Bitcoin due to the fact that it seems to be the most popular form of currency on such platforms. karbytes has a Coinbase wallet which karbytes obtained approximately four years ago for this purpose and has already had success at sending and receiving Bitcoin through the following address: 3F2n27rjXcgBTHPitfHMqMY1fzDMshtiMs).
+
+* * *
+
+karbytes:
+
+What is a .onion web page which is like www.example.com to lose my dark web virginity with?
+
+ChatGPT:
+
+If you’re looking to explore the dark web safely for the first time, it’s important to approach it with caution due to the potential risks involved. One commonly recommended and relatively safe .onion website is The Hidden Wiki. The Hidden Wiki provides a collection of links to various .onion sites and can serve as a starting point for navigating the dark web.
+
+The dark web contains both legal and illegal content, so it’s important to avoid sites that may lead to risky or illegal activities. Always use a trusted VPN and the Tor browser when visiting .onion websites to enhance your privacy and security.
+
+Please proceed with caution and remember to stay within legal boundaries.
+
+karbytes:
+
+How do I access that website from the TOR browser?
+
+ChatGPT:
+
+To access The Hidden Wiki (or any .onion site) safely using the Tor Browser, follow these steps:
+
+1. Download and Install Tor Browser:
+
+– Visit the official Tor Project website at https://www.torproject.org.
+
+– Download and install the Tor Browser for your operating system (Windows, macOS, Linux, etc.).
+
+2. Open Tor Browser:
+
+– Launch the Tor Browser from your device.
+
+3. Connect to the Tor Network:
+
+– When you open Tor Browser, click on “Connect” to access the Tor network. This may take a moment.
+
+4. Visit The Hidden Wiki:
+
+– In the Tor Browser’s URL bar, enter the .onion address of The Hidden Wiki. The address often changes, but a commonly used URL is:
+
+[arduino]
+
+h​ttp://zqktlwi4fecvo6ri.onion
+
+– Ensure you get the address from a reliable source, as the dark web is notorious for hosting malicious or fraudulent sites. Double-check the URL to avoid phishing or scams.
+
+5. Browse Safely:
+
+– Once connected, you can browse the site. Be cautious about the links you click, as some pages may lead to illegal or harmful content.
+
+Important Tips:
+
+– Use a VPN: While Tor provides some anonymity, using a VPN adds an extra layer of protection.
+
+– Do not reveal personal information: Avoid sharing any personal data while using the dark web.
+
+– Stay Legal: Ensure you stay within legal boundaries while browsing the dark web.
+
+With these steps, you’ll be able to access The Hidden Wiki through the Tor browser safely.
+
+karbytes:
+
+I tried inputting that address you provided and the TOR browser said that it was an invalid address.
+
+ChatGPT:
+
+It seems that the .onion address I provided may have changed, as .onion addresses on the dark web can often be taken down or altered for security reasons. To help you access The Hidden Wiki (or any other introductory dark web site), here’s what you can do:
+
+1. Find the Updated Address for The Hidden Wiki:
+
+Since .onion addresses change frequently, it’s important to locate a current, reliable address. You can do this by:
+
+– Searching for “The Hidden Wiki .onion address” on reputable clearnet forums like Reddit’s r/onions or r/Tor communities.
+
+– Be cautious of phishing sites. Look for recent posts by users with good reputations who provide verified links.
+
+2. Double-check the address format:
+
+.onion addresses are always 56 characters long for v3 domains (the current standard), and should look something like this:
+
+[vbnet]
+
+h​ttp://example-long-string-of-letters-and-numbers.onion
+
+Older v2 .onion addresses are now deprecated and may no longer work.
+
+3. Alternative Entry Points:
+
+If The Hidden Wiki’s address is difficult to find or access, you can also try some safer .onion directories like “Ahmia”, which is a search engine for .onion websites. The .onion URL for Ahmia can be searched on its clearnet site: https://ahmia.fi/.
+
+Once you have a verified, updated .onion address, input it into your Tor Browser and navigate safely. If you need help with verifying URLs, feel free to ask! 
