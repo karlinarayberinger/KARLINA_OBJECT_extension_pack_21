@@ -186,5 +186,6 @@ int * generate_array_of_first_n_primes(int N)
     // De-allocate memory which was allocated to the Boolean array's instantiation.
     delete [] isPrime;
 
-    return primes;  // Return the dynamic array of prime numbers
+    // Return the dynamic array of prime numbers.
+    return primes;  
 }
