@@ -60,12 +60,16 @@ def main():
         file.write("Start Of Program\n")
         file.write("--------------------------------\n")
 
-        # Get user input for the number of primes to generate
-        N = int(input("\n\nEnter the number of prime numbers to generate (N): "))
+        # Print "This Python program generates the first N prime numbers using an algorithm named the Sieve of Eratosthenes." to the command line terminal and to the file output stream.
+        print("\n\nThis Python program generates the first N prime numbers using an algorithm named the Sieve of Eratosthenes.")
+        file.write("\n\nThis Python program generates the first N prime numbers using an algorithm named the Sieve of Eratosthenes.")
 
         # Print a horizontal divider line to the command line terminal and to the file output stream.
         print("\n\n--------------------------------")
         file.write("\n\n--------------------------------")
+
+        # Get user input for the number of primes to generate
+        N = int(input("\n\nEnter the number of prime numbers to generate (N): "))
 
         # Log user input to the file after it is entered.
         file.write(f"\n\nEntered value: N = {N}")

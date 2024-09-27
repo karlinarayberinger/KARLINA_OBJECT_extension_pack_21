@@ -3,6 +3,8 @@ Start Of Program
 --------------------------------
 
 
+This Python program generates the first N prime numbers using an algorithm named the Sieve of Eratosthenes.
+
 --------------------------------
 
 Entered value: N = 100
